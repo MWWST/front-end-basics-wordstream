@@ -15,6 +15,7 @@
 	padding-left:85px;
 	padding-top:10px;
 	background: transparent url(../images/logo.png) no-repeat scroll 0% 0%;
+	font-weight:400;
 }
 
 #word {
@@ -27,29 +28,58 @@
 
 #top-menu {
 	height: 20px;
+	width: 350px;
 	display: inline-block;
 	position: relative;
-	left: 400px;
-	bottom:100px;
+	left: 490px;
+	bottom:110px;
 	border: solid 1px #cccccc;
+	border-top:none;
 	border-radius:3px;
+	padding-top:10px;
+	color:#cccccc;
+	font-size:.8em;
 }
 
 #top-menu li {
 	display: inline;
+	position: relative;
+	right:20px;
+	text-decoration: none;
 	border-right: solid 1px #cccccc;
-	padding-right:10px;
-
+	padding-right:5px;
+	padding-left:5px;
+	color:#cccccc;
 }
 
 #top-menu li.last{
 	border-right:none;
 }
 
+#top-menu a {
+	text-decoration: none;
+	color:#BEBCBD;
+}
+
 #login {
-	position: relative;
-	left:410px;
-	bottom:100px;
+  width:61px;
+  height:25px;
+  background: -webkit-linear-gradient(#21A1E0, #1B98D8, #057FC0); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#21A1E0, #1B98D8, #057FC0); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#21A1E0, #1B98D8, #057FC0); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#21A1E0, #1B98D8, #057FC0); /* Standard syntax */
+  border: 1px solid #057FC0;
+  border-radius:2px;
+  position: relative;
+  left:510px;
+  bottom:110px;
+}
+
+#login a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size:.8em;
+	font-weight:300;
 }
 
 #page-title {
@@ -57,28 +87,40 @@
 	width: 970px;
 	position: relative;
 	bottom:100px;
-	height: 48px;
-	background-color:#007CBA;
+	height: 38px;
+	background: -webkit-linear-gradient(#007CBA, #007BB9, #007CBA); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#007CBA, #007BB9, #007CBA); /* For Opera 11.1 to 12.0 */
+ 	background: -moz-linear-gradient(#007CBA, #007BB9, #007CBA); /* For Firefox 3.6 to 15 */
+ 	background: linear-gradient(#007CBA, #007BB9, #007CBA); /* Standard syntax */
 	color:#FFFFFF;
 	font-size: 1.2em;
+	font-weight:400;
 	padding-top:20px;
+	padding-left:10px;
 }
 	
 
 #breadcrumb {
 	display:inline-block;
-	width:720px;
+	width:760px;
+	height:100px;
 	position: relative;
-	left:150px;
+	left:200px;
 	border-bottom: solid 1px #cccccc;
-	bottom:110px;
+	bottom:640px;
+
+}
+
+#breadcrumb a {
+	text-decoration: none;
+	color: #336586;
 }
 
 #contact {
 	display: inline-block;
 	position: relative;
 	bottom:50px;
-	left:150px;
+	left:300px;
 }
 
 #phone-icon {
@@ -127,13 +169,210 @@ background: transparent url(../images/phone.png) no-repeat scroll 0% 0% ;
 
 #sidebar {
 	display:inline-block;
-	width:180px;
+	width:200px;
 	vertical-align: top;
+	position: relative;
+	bottom:20px;
+	border-bottom: 1px solid #cccccc;
+
+}
+
+#sidebar h1 {
+	font-size:1em;
+	color:#2B6CA4;
+}
+#sidebar h2{
+	font-size:.7em;
+	color:#CE4227;
+}
+#sidebar p {
+	font-size: .7em;
 }
 
 #content {
 	display:inline-block;
 	position:relative;
-	width: 700px;
+	width: 680px;
+	margin-left:25px;
 }
 
+#content li {
+	font-size: .8em;
+}
+
+#content-title {
+	font-size:1.1em;
+	color:#2B6CA4;
+
+}
+
+#schedule {
+  width: 218px;
+  height: 31px;
+  background: -webkit-linear-gradient(#21A1E0, #1B98D8, #057FC0); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#21A1E0, #1B98D8, #057FC0); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#21A1E0, #1B98D8, #057FC0); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#21A1E0, #1B98D8, #057FC0); /* Standard syntax */
+  border: 1px solid #057FC0;
+  border-radius:2px;
+  color: #FFFFFF;
+  font-size:.9em;
+  margin-bottom:10px;
+
+}
+
+#schedule a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#trial {
+width: 218px;
+  height: 31px;
+  background: -webkit-linear-gradient(#FC983A, #EE6419, #E84605); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FC983A, #EE6419, #E84605); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FC983A, #EE6419, #E84605); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FC983A, #EE6419, #E84605); /* Standard syntax */
+  border: 1px solid #E84605;
+  border-radius:2px;
+  color: #FFFFFF;
+  font-size:.9em;
+  margin-bottom:10px;
+}
+
+#trial a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#terms {
+	position:relative !important;
+	font-size:1em !important;
+	left: 45px !important;
+	bottom: 12px !important;
+
+}
+
+#advertisement-main{
+	display:inline-block;
+	width: 193px;
+	height:241px;
+	background: url(../images/left_content_ad.png);
+    padding-left:5px;
+
+}
+
+#advertisement-head {
+	color:#1674AA;
+	font-size:1.5em;
+	font-weight:bold;
+
+}
+
+#advertisment-subhead{
+	font-size:.9em;
+	font-weight:bold;
+}
+
+#get_started {
+  background: -webkit-linear-gradient(#1E71A5, #1B679B, #103E60); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#1E71A5, #1B679B, #103E60); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#1E71A5, #1B679B, #103E60); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#1E71A5, #1B679B, #103E60); /* Standard syntax */
+  border: 1px solid #103E60;
+  border-radius:2px;
+  font-size:.8em;
+}
+
+#get_started a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#arrow1 {
+	color:#5892B8;
+}
+#arrow2 {
+	color:#94C1E2;
+}
+
+#arrow3{
+	color:#E9FFFF;
+}
+
+h1 {
+	font-weight:700;
+
+}
+
+#cta {
+	display: block;
+	width:630px;
+	height:130px;
+	border: 5px solid #80BBD7;
+}
+
+#cta-header {
+	display:inline-block;
+	color:#26739F;
+	font-size:1.2em;
+	font-weight:900;
+	vertical-align: top;
+}
+#cta-text{
+	display:inline-block;
+	width:500px;
+	position:relative;
+	left:65px;
+	bottom:60px;
+	vertical-align: top;
+	padding-top:5px;
+	font-size:.9em;
+	font-weight:300;
+}
+
+#cta-icon {
+	display: inline-block;
+	width: 59px;
+	height:80px;
+	background: url(../images/content_ad.png);
+}
+
+#get-started-green {
+  position: relative;
+  bottom:50px;
+  left:60px;
+  background: -webkit-linear-gradient(#5B852F, #92B63A, #BCD241); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#5B852F, #92B63A, #BCD241); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#5B852F, #92B63A, #BCD241); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#5B852F, #92B63A, #BCD241); /* Standard syntax */
+  border: 1px solid #5B852F;
+  border-radius:2px;
+  font-size:1em;
+  width:200px;
+  height: 40px;
+  border-radius:5px;
+}
+
+#get-started-green a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+h2 {
+	color:#2072A2;	
+	font-size:1.1em;
+	font-weight:500;
+}
+
+p {
+	font-size:.8em;
+}
+
+#content-list {
+	font-weight:bold;
+}
+
+.important {
+	font-weight:bold;
+}
